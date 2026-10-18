@@ -1,0 +1,27 @@
+{
+  "name": "@qmoosa/flashloan-dashboard",
+  "version": "1.0.0",
+  "description": "ERC-3156 Flash Loan Dashboard — Web4 Protocol Telemetry, Liquidity Pool Analytics & Arbitrage Simulator",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/dashboard.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "flashloan",
+    "dashboard",
+    "web4",
+    "telemetry",
+    "analytics"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
